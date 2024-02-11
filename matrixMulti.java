@@ -28,8 +28,8 @@ class matrixMulti{
             // read second matrix
             int ar2[][] = new int[row2][col2];
             System.out.println("Enter elements of second matrix: ");
-            for (i=0;i<row1;i++){
-                for(j=0;j<col1;j++){
+            for (i=0;i<row2;i++){
+                for(j=0;j<col2;j++){
                     ar2[i][j]=in.nextInt();
                 }
             }
