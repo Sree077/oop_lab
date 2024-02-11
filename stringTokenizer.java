@@ -13,5 +13,6 @@ class stringTokenizer{
             sum+=n;
         }
         System.out.println("Sum of the Integers is: "+sum);
+        in.close();
     }
 }

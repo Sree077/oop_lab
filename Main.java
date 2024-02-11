@@ -39,7 +39,7 @@ class Main{
         System.out.print("Enter Manager's salary: ");
         m.salary=in.nextInt();
         m.printSalary();
-    
+        in.close();
     }
 }
 
